@@ -1,1 +1,5 @@
-# NCERT-Books-Scrapper
+# NCERT Books Scrapper
+
+```
+pip install httpx
+```

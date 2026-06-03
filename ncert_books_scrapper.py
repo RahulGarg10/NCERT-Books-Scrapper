@@ -16,7 +16,7 @@ books_with_linkcodes = {
 
 def books_scrapper():
     # Setup working folders
-    base_dir = "NCERT_books"
+    base_dir = "NCERT Books"
     os.makedirs(base_dir, exist_ok=True)
     
     headers = {
@@ -59,7 +59,7 @@ def books_scrapper():
                 print(f"[CRITICAL] Connection failure on {book_name}: {e}\n")
                 
             # Polite cooldown buffer for government infrastructure servers
-            time.sleep(3)
+            time.sleep(5)
 
 if __name__ == "__main__":
     books_scrapper()
